@@ -1,0 +1,11 @@
+#11. Reverse a number
+n = 12345
+rev = 0
+
+while n > 0:
+    digit = n % 10
+    rev = rev * 10 + digit
+    n //= 10
+
+print(rev)
+#Explanation: Reverse the digits of a number using modulo and integer division.
